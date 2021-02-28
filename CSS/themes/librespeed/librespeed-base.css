@@ -21,9 +21,11 @@ html, body {
 	-moz-background-size: auto, cover;
 	-o-background-size: auto, cover;
 	color:#FFFFFF !important;
+	height: 100%; /* Page size gets cut on official image: adolfintel/speedtest */
 }
 h1 {
     color: white;
+    margin-top: 20px; /* White space on top of page on official image: adolfintel/speedtest */
 }
 div.meterText:empty:before {
     color: white !important;
